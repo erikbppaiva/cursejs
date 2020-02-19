@@ -1,0 +1,30 @@
+body{
+background-color: rgb(70, 70, 235);
+
+font: normal 15pt arial;
+
+}
+header{
+    color: rgb(246, 246, 246);
+    text-align: center;
+}
+select#flist{
+    width: 150px;
+}
+
+section{
+    color: rgb(170, 50, 50);
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.383);
+    
+    
+}
+footer{
+    color: rgb(246, 246, 246);
+    text-align: center;
+    font-style: italic;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pr-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+</head>
+<body>
+
+    <h1>Sistema de visitas</h1>
+    Em qual país você está? <input type="text" name="txt1" id="txt1">
+    <input type="button" value="Verificar" onclick="resultado()">
+    <div id="res"> </div>
+    <script>
+        function resultado(){
+            var pais = window.document.querySelector('input#txt1')
+            var result = window.document.querySelector('div#res')
+            var local = (txt1.value)
+            res.innerHTML = `O seu país é ${local}`
+            if (local == 'Brasil'){
+                res.innerHTML += ` Você é <strong> BRASILEIRO</strong> `
+            }else {
+                res.innerHTML += ` Você é <strong> ESTRANGEIRO </strong>`
+            }
+
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+aula 0401:04 02/01/2020
+window.alert('Minha primeira mensagen!') = abre um alerta
+window.confirm('Está gostando do JS?') = abre caixa de confirmação
+window.prompt = abre caixa de dialogo
+
+aula 05
+typeof = mostra de que é a variavel
+
+aula 06
+CONCATENAÇÃO = junção de varias coisas
+Number.parseInt = converte string em number inteiro
+String(n) e n.toString() = transforma o number para string
+`${}` place hoder = é uma substituição da concatenação
+n.length = quantos caracteres a string tem
+n.toUpperCase() = tudo para "MAIUSCULO"
+n.toLowerCase() = tudo para 'menusculo'
+n1.toFixed(2) =  diz a quantidade de casas decimais
+> n1
+1545.5
+> n1.toLocaleString('pt-BR', {style: 'currency',currency: 'BRL'})
+'R$ 1,545.50'
+> n1.toLocaleString('pt-BR', {style: 'currency',currency: 'USD'})
+'US$ 1,545.50'
+> n1.toLocaleString('pt-BR', {style: 'currency',currency: 'EUR'})
+'€ 1,545.50'
+>
+
+aula 08
+precedencia  
+-operadores aritmetricos
+-operadores relacionais <> <= =>
+-operadores lógicos 1° !==(não) 2°&&==(e) 3°||==(ou)
+
+OPERADOR TERNARIO
+?: na msm espressão
+ex teste ? true : false
+
+aula 13 
+
+while == enquanto
+do{}while() == faça enquanto
